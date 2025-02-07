@@ -11,62 +11,25 @@ body {
 h2 {
     text-align: center;
 }
-
-/* Barra de navegación */
-.navbar-sticky {
-    width: 100%;
-    
-    
-    justify-content: center; 
-    align-items: center;
-    padding: 10px 0px;
-    background-color: #333;
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    border-radius: 0px 0px 20px 20px;
+#titulo {
+    text-align: center;
 }
 
-
-.start {
-    display: flex; 
-    justify-content: center; 
+p{
+    text-size-adjust: 18;
 }
 
-.start ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.start ul li {
-    margin-right: 20px; 
-}
-
-.start ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    transition: background-color 0.3s ease;
-}
-
-.start ul li a:hover {
-    background-color: #555;
-    border-radius: 20px;
-}
 
 
 .header {
     width: 100%;
     background-color: #C8AE81;
-    margin: 0 auto;
+    margin: 0px auto;
    
     color: rgb(0, 0, 0);
     padding: 30px 0px;
     
-    border-bottom: 10px solid #122c3d;
+    border-bottom: 10px solid #9b6f50;
     
     background-size: cover; 
     background-position: center; 
@@ -88,9 +51,11 @@ h2 {
     
     flex: 50%; 
     padding: 10px;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: rgb(122, 124, 128);
+    margin: 60px;
+    border: 5px solid #9b6f50; 
+
+    border-radius: 10px ;
+    background-color: #C8AE81;
 }
 
 #texto {
@@ -205,12 +170,13 @@ h2 {
 .footer{
     width: 100%;
     
-    background-color: #2e2e2e;
+    background-color: #9b6f50;
     color: #FFF;
     text-align: center;
     padding: 20px 0;
     width: 100%;
     margin: 0;
+    border-radius: 10px 10px 0px 0px ;
 }
 
 /*Sobre mi */
